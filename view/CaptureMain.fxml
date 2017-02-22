@@ -28,5 +28,10 @@
       <TextField fx:id="addV" layoutX="583.0" layoutY="22.0" prefHeight="17.0" prefWidth="89.0" />
       <Label layoutX="548.0" layoutY="27.0" text="Value" />
       <TextField fx:id="qSize" layoutX="14.0" layoutY="22.0" prefHeight="27.0" prefWidth="41.0" />
+      <Label fx:id="proxy" layoutX="753.0" layoutY="22.0" prefHeight="27.0" prefWidth="109.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

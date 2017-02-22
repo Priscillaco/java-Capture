@@ -38,6 +38,8 @@ public class CaptureController implements Initializable{
 	private TextField qSize;
 	@FXML
 	private TextArea requestBody;
+	@FXML
+	private Label proxy;
 	public int i;
 	private String addParamStr;
 
@@ -80,6 +82,7 @@ public class CaptureController implements Initializable{
 		commonHash.put("addParam", "");
 		commonHash.put("rex", "A<}BC");//一个选项卡竟然不知道用fx怎么搞。。。找遍了stack overflow
 		addParam.setText("添加代理参数");
+		proxy.setText("代理端口8888");
 	}
 	public void servicesThread(){
         Task<Void> ServiceTask = new Task<Void>(){
