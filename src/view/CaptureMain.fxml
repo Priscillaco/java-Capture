@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="733.0" prefWidth="874.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.httpServices.fx.CaptureController">
+   <children>
+      <Pane layoutX="321.0" layoutY="56.0" prefHeight="676.0" prefWidth="547.0">
+         <children>
+            <TextArea fx:id="httpInfo" layoutX="14.0" layoutY="111.0" prefHeight="559.0" prefWidth="529.0" />
+            <TextArea fx:id="requestBody" layoutX="14.0" layoutY="8.0" prefHeight="98.0" prefWidth="529.0" />
+         </children>
+      </Pane>
+      <ScrollPane layoutX="11" layoutY="63.0" prefHeight="663.0" prefWidth="316.0">
+         <content>
+            <VBox fx:id="vBoxUrlInfo" prefHeight="659.0" prefWidth="312.0" />
+         </content>
+      </ScrollPane>
+      <Label fx:id="addParam" layoutX="334.0" layoutY="21.0" prefHeight="29.0" prefWidth="89.0" text="添加代理参数">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="addK" layoutX="453.0" layoutY="21.0" prefHeight="29.0" prefWidth="89.0" />
+      <Label layoutX="429.0" layoutY="27.0" text="Key" />
+      <TextField fx:id="addV" layoutX="583.0" layoutY="22.0" prefHeight="17.0" prefWidth="89.0" />
+      <Label layoutX="548.0" layoutY="27.0" text="Value" />
+      <TextField fx:id="qSize" layoutX="14.0" layoutY="22.0" prefHeight="27.0" prefWidth="41.0" />
+   </children>
+</AnchorPane>
