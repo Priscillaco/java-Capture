@@ -1,4 +1,4 @@
-package com.httpServices.service;
+package com.proxyServices.service;
 
 import java.io.BufferedReader;
 import java.io.IOException;

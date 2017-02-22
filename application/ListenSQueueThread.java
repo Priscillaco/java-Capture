@@ -2,7 +2,7 @@ package application;
 
 import java.util.HashMap;
 
-import com.httpServices.fx.squeue.SQueue;
+import com.proxyServices.fx.squeue.SQueue;
 
 import javafx.collections.ObservableList;
 import javafx.scene.control.ListView;

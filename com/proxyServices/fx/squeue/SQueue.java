@@ -1,4 +1,4 @@
-package com.httpServices.fx.squeue;
+package com.proxyServices.fx.squeue;
 
 import java.util.HashMap;
 import java.util.LinkedList;

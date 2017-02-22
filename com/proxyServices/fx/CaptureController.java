@@ -1,11 +1,11 @@
-package com.httpServices.fx;
+package com.proxyServices.fx;
 
 import java.net.URL;
 import java.util.HashMap;
 import java.util.ResourceBundle;
 
-import com.httpServices.fx.squeue.SQueue;
-import com.httpServices.service.MySHttpService;
+import com.proxyServices.fx.squeue.SQueue;
+import com.proxyServices.service.MySproxyServices;
 
 import javafx.application.Platform;
 import javafx.concurrent.Task;
@@ -89,7 +89,7 @@ public class CaptureController implements Initializable{
 			@Override
 			protected Void call() {
 				updateMessage("service start");
-				MySHttpService mySHttpService = new MySHttpService();
+				MySproxyServices mySHttpService = new MySproxyServices();
 			    System.out.println("HttpService thread run");
 			    mySHttpService.StartService(queue,commonHash);
 				return null;

@@ -1,4 +1,4 @@
-package com.httpServices.service;
+package com.proxyServices.service;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -7,13 +7,13 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.HashMap;
 
-import com.httpServices.fx.squeue.SQueue;
+import com.proxyServices.fx.squeue.SQueue;
 
 /**
  *@author lishihao
  *github: https://github.com/Fireflyi
  */
-public class MySHttpService {
+public class MySproxyServices {
 	private static 	int PORT;
 	private  boolean START = true;
 	public static void main(String[] args) {

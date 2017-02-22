@@ -1,7 +1,7 @@
 package application;
 
-import com.httpServices.fx.squeue.SQueue;
-import com.httpServices.service.MySHttpService;
+import com.proxyServices.fx.squeue.SQueue;
+import com.proxyServices.service.MySproxyServices;
 
 public class ServiceTread implements Runnable{
 	public SQueue requestMasgQueue;
@@ -11,7 +11,7 @@ public class ServiceTread implements Runnable{
 
 	@Override
 	public void run() {
-        MySHttpService mySHttpService = new MySHttpService();
+        MySproxyServices mySHttpService = new MySproxyServices();
         System.out.println("HttpService thread run");
         mySHttpService.StartService(requestMasgQueue, null);
 		

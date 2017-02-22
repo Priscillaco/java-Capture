@@ -1,4 +1,4 @@
-package com.httpServices.service;
+package com.proxyServices.service;
 
 import java.io.OutputStream;
 import java.io.PrintWriter;
@@ -7,8 +7,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 
-import com.httpServices.fx.squeue.SQueue;
-import com.httpServices.util.UhttpClient;
+import com.proxyServices.fx.squeue.SQueue;
+import com.proxyServices.util.UhttpClient;
 
 
 public class MySResponse {
